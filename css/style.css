@@ -1,0 +1,211 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.grid-container {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+section.grid {
+    overflow: hidden;
+}
+
+section.grid {
+    margin: 40px auto;
+}
+
+section.grid .grid-row {
+    margin-bottom: 20px;
+}
+
+section.grid .grid-1,
+section.grid .grid-2,
+section.grid .grid-3,
+section.grid .grid-4,
+section.grid .grid-5,
+section.grid .grid-6,
+section.grid .grid-7,
+section.grid .grid-8,
+section.grid .grid-9,
+section.grid .grid-10,
+section.grid .grid-11,
+section.grid .grid-12 {
+    float: left;
+    position: relative;
+}
+
+section.grid .grid-12 {
+    width: 100%;
+    width: calc(12/12 * 100%);
+}
+
+section.grid .grid-11 {
+    width: 91.666%;
+    width: calc(11/12 * 100%);
+}
+
+section.grid .grid-10 {
+    width: 83.333%;
+    width: calc(10/12 * 100%);
+}
+
+section.grid .grid-9 {
+    width: 75%;
+    width: calc(9/12 * 100%);
+}
+
+section.grid .grid-8 {
+    width: 66.666%;
+    width: calc(8/12 * 100%);
+}
+
+section.grid .grid-7 {
+    width: 58.333%;
+    width: calc(7/12 * 100%);
+}
+
+section.grid .grid-6 {
+    width: 50%;
+    width: calc(6/12 * 100%);
+}
+
+section.grid .grid-5 {
+    width: 41.666%;
+    width: calc(5/12 * 100%);
+}
+
+section.grid .grid-4 {
+    width: 33.333%;
+    width: calc(4/12 * 100%);
+}
+
+section.grid .grid-3 {
+    width: 25%;
+    width: calc(3/12 * 100%);
+}
+
+section.grid .grid-2 {
+    width: 16.666%;
+    width: calc(2/12 * 100%);
+}
+
+section.grid .grid-1 {
+    width: 8.333%;
+    width: calc(1/12 * 100%);
+}
+
+.grid-item {
+    height: 60px;
+    background: #FFF;
+    border: 1px solid #FFF;
+}
+
+.clearfix:after,
+.grid-row:after,
+.row:after {
+    clear: both;
+}
+
+.clearfix:after,
+.clearfix:before,
+.grid-row:after,
+.grid-row:before,
+.row:after,
+.row:before {
+    content: " ";
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+}
+/* ### STYLING ### */
+
+@import url(http://fonts.googleapis.com/css?family=Poiret+One);
+.grid-identifier {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 40px;
+    height: 30px;
+    background: #FFF;
+    border-radius: 15px;
+    font-family: 'Poiret One', Arial, serif;
+    font-weight: 500;
+    text-align: center;
+    line-height: 30px;
+    font-size: 1.5em;
+}
+
+.red {
+    background-color: #F44336;
+    opacity: 0.2;
+}
+
+.pink {
+    background-color: #E91E63;
+    opacity: 0.2;
+}
+
+.purple {
+    background-color: #9C27B0;
+    opacity: 0.2;
+}
+
+.blue {
+    background-color: #2196F3;
+    opacity: 0.2;
+}
+
+.cyan {
+    background-color: #00BCD4;
+    opacity: 0.2;
+}
+
+.teal {
+    background-color: #009688;
+    opacity: 0.2;
+}
+
+.green {
+    background-color: #74D108;
+    opacity: 0.2;
+}
+
+.lime {
+    background-color: #CDDC39;
+    opacity: 0.2;
+}
+
+.yellow {
+    background-color: #FFEB3B;
+    opacity: 0.2;
+}
+
+.orange {
+    background-color: #FF9800;
+    opacity: 0.2;
+}
+
+.burnt-orange {
+    background-color: #FF5722;
+    opacity: 0.2;
+}
+
+.brown {
+    background-color: #795548;
+    opacity: 0.2;
+}
+
+section.grid .grid-row div:last-of-type {
+    margin-right: 0px;
+}
